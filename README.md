@@ -20,9 +20,14 @@
 ![v2ray](/img/kinto3.jpg)
 
 ### 修改UUID
+方法一：
 
 Fork本项目，到config.json里面修改uuid或者端口，然后到Dockerfile里面修改ENV CONFIG= 指向链接，例如
 
 `ENV CONFIG=https://raw.githubusercontent.com/yeahwu/kinto/master/config.json`指向你自己项目的config.json文件。
 
-当然这个config.json链接也可以改为自己的私密链接，比如gist链接。
+方法二：
+
+当然这个config.json链接也可以改为自己的私密链接，比如 https://gist.github.com/ 里写config.json文件，然后生成链接。最后部署的时候写入到Environment variables里，如图：
+
+![gist](/img/kinto4.jpg)
