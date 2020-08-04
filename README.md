@@ -11,7 +11,7 @@
 
 ![repository](/img/kinto1.PNG)
 
-最后点击Deploy，部署完成，会生成一个链接，点击链接，如果显示Bad Request，即为成功。
+最后点击右上角 Deploy，部署完成，会生成一个链接，点击链接，如果显示Bad Request，即为成功。
 
 ### 客户端配置
 
@@ -19,6 +19,10 @@
 
 ![v2ray](/img/kinto3.jpg)
 
-### 修改uuid
+### 修改UUID
 
-Fork本项目，然后到config.json里面修改uuid或者端口就可以了。
+Fork本项目，到config.json里面修改uuid或者端口，然后到Dockerfile里面修改ENV CONFIG= 指向链接，例如
+
+`ENV CONFIG=https://raw.githubusercontent.com/yeahwu/kinto/master/config.json`指向你自己项目的config.json文件。
+
+当然这个config.json链接也可以改为自己的私密链接，比如gist链接。
