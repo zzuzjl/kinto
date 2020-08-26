@@ -21,6 +21,10 @@
             "protocol": "freedom"
         },
         {
+            "protocol": "blackhole",
+            "tag": "blocked"
+        },
+        {
             "protocol": "socks",
             "tag": "sockstor",
             "settings": {
