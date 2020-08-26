@@ -2,7 +2,6 @@
     "inbounds": [
         {
             "port": 8888,
-            "listen": "0.0.0.0",
             "protocol": "vmess",
             "settings": {
                 "clients": [
@@ -19,9 +18,7 @@
 
     "outbounds": [
         {
-            "protocol": "freedom",
-            "tag": "direct",
-            "settings": {}
+            "protocol": "freedom"
         },
         {
             "protocol": "socks",
