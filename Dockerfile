@@ -9,7 +9,7 @@ ENV CONFIG=https://raw.githubusercontent.com/yeahwu/kinto/master/config.json
 COPY --from=builder /tmp/v2ray.tgz /tmp
 RUN apk update && apk add --no-cache tor ca-certificates && \
     tar xvfz /tmp/v2ray.tgz -C /usr/bin && \
-    rm -rf /tmp/v2ray.tgz
+    rm -rf v2ray-core /tmp/v2ray.tgz
     
 CMD nohup tor & \
     v2ray -config $CONFIG
