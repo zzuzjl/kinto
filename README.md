@@ -27,7 +27,7 @@
 
 方法一：
 
-当然这个config.json链接也可以改为自己的私密链接，比如 https://gist.github.com/ 里写config.json配置，配置可参考本项目的config.json文件，然后生成链接。最后部署的时候写入到Environment variables里，如图：
+v2ray的配置文件config.json，可以改为自己的私密链接，比如 https://gist.github.com/ 里自定义v2ray配置，当然你也可参考本项目的config.json配置，然后生成链接。最后部署的时候写入到Environment variables里，如图：
 
 ![gist](/img/kinto4.jpg)
 
