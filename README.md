@@ -1,5 +1,7 @@
 > 提醒： 免费空间请不要滥用！！！
 
+下面是kintohub是部署方法，v2-heroku的部署方法请见：https://github.com/yeahwu/kinto/blob/master/v2-heroku.md
+
 利用kintohub免费空间部署v2ray和tor，部署成功后，可用v2ray客户端直接访问tor网络，比如暗网.onion，v2ray.json文件中设置了路由分流了tor网络，非tor流量不受影响。
 
 ### 部署服务端
