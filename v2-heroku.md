@@ -71,6 +71,6 @@ Heroku上部署v2ray和tor，部署成功后，可用v2ray客户端直接访问t
   ]
 }
 ```
-捐赠本博：https://yeahwu.com/donation.html
+捐赠本博：https://starts.sh/donation.html
 
 测试暗网页面：http://vq7kihyfoqcoluju.onion/donation.html
